@@ -1,3 +1,4 @@
 {
-  "extends": "@devvit/public-api/devvit.tsconfig.json"
+  "extends": "@devvit/public-api/devvit.tsconfig.json",
+  "exclude": ["**/node_modules", "**/.*/", "./*.js"]
 }
