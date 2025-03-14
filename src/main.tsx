@@ -84,7 +84,7 @@ const timeConfirmationForm = Devvit.createForm(
   (data) => {
     const d = data as RemindMeFormData
     return {
-      title: "Are you sure?",
+      title: "Is this correct?",
       description: `I will remind you at ${new Date(d.reminderTimestamp).toUTCString()}`,
       fields: [],
       acceptLabel: "Confirm",
